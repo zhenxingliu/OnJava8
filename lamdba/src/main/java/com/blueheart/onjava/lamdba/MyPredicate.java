@@ -3,6 +3,7 @@ package com.blueheart.onjava.lamdba;
 /**
  * @author liuzhenxing
  */
+@FunctionalInterface
 public interface MyPredicate<T> {
 
     /**

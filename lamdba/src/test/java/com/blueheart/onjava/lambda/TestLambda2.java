@@ -1,5 +1,6 @@
 package com.blueheart.onjava.lambda;
 
+import com.blueheart.onjava.lamdba.MyFun;
 import org.junit.Test;
 
 import java.util.Comparator;
@@ -38,7 +39,7 @@ public class TestLambda2 {
 
     @Test
     public void test2(){
-        Consumer<String> consumer = (x) -> System.out.println(x);
+        Consumer<String> consumer = System.out::println;
         consumer.accept("aaaaaaaaaaa");
     }
 
@@ -61,6 +62,18 @@ public class TestLambda2 {
     public void test5(){
         Comparator<Integer> con = Integer::compare;
         con.compare(11,22);
+    }
+
+    @Test
+    public void test6(){
+        Integer result = operation(100, (x) -> x * x);
+        System.out.println(result);
+
+        System.out.println(operation(200,(x) -> x + 200));;
+    }
+
+    public Integer operation(Integer num, MyFun mf){
+        return mf.getValue(num);
     }
 
 }
