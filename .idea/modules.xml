@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/OnJava8.iml" filepath="$PROJECT_DIR$/.idea/OnJava8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamdba/lamdba.iml" filepath="$PROJECT_DIR$/lamdba/lamdba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
+    </modules>
+  </component>
+</project>

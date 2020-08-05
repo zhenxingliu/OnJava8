@@ -5,6 +5,10 @@
     <groupId>com.blueheart</groupId>
     <artifactId>onjava8</artifactId>
     <version>1</version>
+    <modules>
+        <module>stream</module>
+        <module>lamdba</module>
+    </modules>
     <name>onjava8</name>
     <packaging>pom</packaging>
 </project>
